@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB9977E11A03EAA300514112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9977E01A03EAA300514112 /* AppDelegate.swift */; };
+		EB9977E31A03EAA300514112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9977E21A03EAA300514112 /* ViewController.swift */; };
+		EB9977E61A03EAA300514112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB9977E41A03EAA300514112 /* Main.storyboard */; };
+		EB9977E81A03EAA300514112 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9977E71A03EAA300514112 /* Images.xcassets */; };
+		EB9977EB1A03EAA300514112 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB9977E91A03EAA300514112 /* LaunchScreen.xib */; };
+		EB9977F71A03EAA400514112 /* Whether_Weather_WithersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9977F61A03EAA400514112 /* Whether_Weather_WithersTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB9977F11A03EAA400514112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9977D31A03EAA300514112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9977DA1A03EAA300514112;
+			remoteInfo = "Whether Weather Withers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB9977DB1A03EAA300514112 /* Whether Weather Withers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whether Weather Withers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9977DF1A03EAA300514112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9977E01A03EAA300514112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB9977E21A03EAA300514112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB9977E51A03EAA300514112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB9977E71A03EAA300514112 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB9977EA1A03EAA300514112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EB9977F01A03EAA400514112 /* Whether Weather WithersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Whether Weather WithersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9977F51A03EAA400514112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9977F61A03EAA400514112 /* Whether_Weather_WithersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whether_Weather_WithersTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB9977D81A03EAA300514112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9977ED1A03EAA300514112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB9977D21A03EAA300514112 = {
+			isa = PBXGroup;
+			children = (
+				EB9977DD1A03EAA300514112 /* Whether Weather Withers */,
+				EB9977F31A03EAA400514112 /* Whether Weather WithersTests */,
+				EB9977DC1A03EAA300514112 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB9977DC1A03EAA300514112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB9977DB1A03EAA300514112 /* Whether Weather Withers.app */,
+				EB9977F01A03EAA400514112 /* Whether Weather WithersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB9977DD1A03EAA300514112 /* Whether Weather Withers */ = {
+			isa = PBXGroup;
+			children = (
+				EB9977E01A03EAA300514112 /* AppDelegate.swift */,
+				EB9977E21A03EAA300514112 /* ViewController.swift */,
+				EB9977E41A03EAA300514112 /* Main.storyboard */,
+				EB9977E71A03EAA300514112 /* Images.xcassets */,
+				EB9977E91A03EAA300514112 /* LaunchScreen.xib */,
+				EB9977DE1A03EAA300514112 /* Supporting Files */,
+			);
+			path = "Whether Weather Withers";
+			sourceTree = "<group>";
+		};
+		EB9977DE1A03EAA300514112 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9977DF1A03EAA300514112 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB9977F31A03EAA400514112 /* Whether Weather WithersTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB9977F61A03EAA400514112 /* Whether_Weather_WithersTests.swift */,
+				EB9977F41A03EAA400514112 /* Supporting Files */,
+			);
+			path = "Whether Weather WithersTests";
+			sourceTree = "<group>";
+		};
+		EB9977F41A03EAA400514112 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9977F51A03EAA400514112 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB9977DA1A03EAA300514112 /* Whether Weather Withers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9977FA1A03EAA400514112 /* Build configuration list for PBXNativeTarget "Whether Weather Withers" */;
+			buildPhases = (
+				EB9977D71A03EAA300514112 /* Sources */,
+				EB9977D81A03EAA300514112 /* Frameworks */,
+				EB9977D91A03EAA300514112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whether Weather Withers";
+			productName = "Whether Weather Withers";
+			productReference = EB9977DB1A03EAA300514112 /* Whether Weather Withers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB9977EF1A03EAA300514112 /* Whether Weather WithersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9977FD1A03EAA400514112 /* Build configuration list for PBXNativeTarget "Whether Weather WithersTests" */;
+			buildPhases = (
+				EB9977EC1A03EAA300514112 /* Sources */,
+				EB9977ED1A03EAA300514112 /* Frameworks */,
+				EB9977EE1A03EAA300514112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9977F21A03EAA400514112 /* PBXTargetDependency */,
+			);
+			name = "Whether Weather WithersTests";
+			productName = "Whether Weather WithersTests";
+			productReference = EB9977F01A03EAA400514112 /* Whether Weather WithersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB9977D31A03EAA300514112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = jordan;
+				TargetAttributes = {
+					EB9977DA1A03EAA300514112 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EB9977EF1A03EAA300514112 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EB9977DA1A03EAA300514112;
+					};
+				};
+			};
+			buildConfigurationList = EB9977D61A03EAA300514112 /* Build configuration list for PBXProject "Whether Weather Withers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB9977D21A03EAA300514112;
+			productRefGroup = EB9977DC1A03EAA300514112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9977DA1A03EAA300514112 /* Whether Weather Withers */,
+				EB9977EF1A03EAA300514112 /* Whether Weather WithersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB9977D91A03EAA300514112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9977E61A03EAA300514112 /* Main.storyboard in Resources */,
+				EB9977EB1A03EAA300514112 /* LaunchScreen.xib in Resources */,
+				EB9977E81A03EAA300514112 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9977EE1A03EAA300514112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9977D71A03EAA300514112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9977E31A03EAA300514112 /* ViewController.swift in Sources */,
+				EB9977E11A03EAA300514112 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9977EC1A03EAA300514112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9977F71A03EAA400514112 /* Whether_Weather_WithersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB9977F21A03EAA400514112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9977DA1A03EAA300514112 /* Whether Weather Withers */;
+			targetProxy = EB9977F11A03EAA400514112 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB9977E41A03EAA300514112 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9977E51A03EAA300514112 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB9977E91A03EAA300514112 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9977EA1A03EAA300514112 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB9977F81A03EAA400514112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB9977F91A03EAA400514112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB9977FB1A03EAA400514112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Whether Weather Withers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB9977FC1A03EAA400514112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Whether Weather Withers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB9977FE1A03EAA400514112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Whether Weather WithersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whether Weather Withers.app/Whether Weather Withers";
+			};
+			name = Debug;
+		};
+		EB9977FF1A03EAA400514112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Whether Weather WithersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whether Weather Withers.app/Whether Weather Withers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9977D61A03EAA300514112 /* Build configuration list for PBXProject "Whether Weather Withers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9977F81A03EAA400514112 /* Debug */,
+				EB9977F91A03EAA400514112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9977FA1A03EAA400514112 /* Build configuration list for PBXNativeTarget "Whether Weather Withers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9977FB1A03EAA400514112 /* Debug */,
+				EB9977FC1A03EAA400514112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB9977FD1A03EAA400514112 /* Build configuration list for PBXNativeTarget "Whether Weather WithersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9977FE1A03EAA400514112 /* Debug */,
+				EB9977FF1A03EAA400514112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB9977D31A03EAA300514112 /* Project object */;
+}
